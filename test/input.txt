@@ -6,14 +6,6 @@
   sfdfd
 
 ##########################################################
-# test top5
-##########################################################
-
-  # address book should be emptied
-  clear
-  top5
-
-##########################################################
 # clean and check state
 ##########################################################
 
@@ -29,7 +21,7 @@
   add wrong args wrong args
   add Valid Name p/12345 valid@email.butNoPrefix
   add Valid Name 12345 e/valid@email.butPhonePrefixMissing
-  
+
   # should catch invalid person data
   add []\[;] p/12345 e/valid@e.mail
   add Valid Name p/not_numbers e/valid@e.mail
@@ -106,6 +98,20 @@
   # clears all
   clear
   list
+
+##########################################################
+# test top5
+##########################################################
+
+  # address book should be emptied
+  clear
+  add temp1 p/12345671 e/temp1@abc.com
+  add temp2 p/12345672 e/temp2@abc.com
+  add temp3 p/12345673 e/temp3@abc.com
+  add temp4 p/12345674 e/temp4@abc.com
+  add temp5 p/12345675 e/temp5@abc.com
+  add temp6 p/12345676 e/temp6@abc.com
+  top5
 
 ##########################################################
 # test exit command

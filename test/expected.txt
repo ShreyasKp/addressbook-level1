@@ -62,6 +62,9 @@
 || list: Displays all persons as a list with index numbers.
 || 	Example: list
 || 
+|| top5: Displays 5 persons as a list with index numbers.
+|| 	Example: top5
+|| 
 || delete: Deletes a person identified by the index number used in the last find/list call.
 || 	Parameters: INDEX
 || 	Example: delete 1
@@ -274,6 +277,36 @@
 || Enter command: || [Command entered:  list]
 || 
 || 0 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  clear]
+|| Address book has been cleared!
+|| ===================================================
+|| Enter command: || [Command entered:  add temp1 p/12345671 e/temp1@abc.com]
+|| New person added: temp1, Phone: 12345671, Email: temp1@abc.com
+|| ===================================================
+|| Enter command: || [Command entered:  add temp2 p/12345672 e/temp2@abc.com]
+|| New person added: temp2, Phone: 12345672, Email: temp2@abc.com
+|| ===================================================
+|| Enter command: || [Command entered:  add temp3 p/12345673 e/temp3@abc.com]
+|| New person added: temp3, Phone: 12345673, Email: temp3@abc.com
+|| ===================================================
+|| Enter command: || [Command entered:  add temp4 p/12345674 e/temp4@abc.com]
+|| New person added: temp4, Phone: 12345674, Email: temp4@abc.com
+|| ===================================================
+|| Enter command: || [Command entered:  add temp5 p/12345675 e/temp5@abc.com]
+|| New person added: temp5, Phone: 12345675, Email: temp5@abc.com
+|| ===================================================
+|| Enter command: || [Command entered:  add temp6 p/12345676 e/temp6@abc.com]
+|| New person added: temp6, Phone: 12345676, Email: temp6@abc.com
+|| ===================================================
+|| Enter command: || [Command entered:  top5]
+|| 	1. temp1  Phone Number: 12345671  Email: temp1@abc.com
+|| 	2. temp2  Phone Number: 12345672  Email: temp2@abc.com
+|| 	3. temp3  Phone Number: 12345673  Email: temp3@abc.com
+|| 	4. temp4  Phone Number: 12345674  Email: temp4@abc.com
+|| 	5. temp5  Phone Number: 12345675  Email: temp5@abc.com
+|| 
+|| 5 persons found!
 || ===================================================
 || Enter command: || [Command entered:  exit]
 || Exiting Address Book... Good bye!
